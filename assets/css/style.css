@@ -780,6 +780,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
 /* carousel */
 .carousel-1 {
   height: 104vh;
+  width: 100%;
   overflow: hidden;
 }
 .carousel-1 .list .item {
@@ -854,8 +855,17 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
   color: #eee;
 }
 /* thumbail */
-.thumbnail {
+/* .thumbnail {
   position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: max-content;
+  z-index: 1;
+  display: flex;
+  gap: 20px;
+} */
+.thumbnail {
+  position: relative;
   bottom: 50px;
   left: 50%;
   width: max-content;
@@ -1080,6 +1090,16 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
     border-bottom: 2px solid;
     border-right: 0;
     padding-bottom: 6px;
+}
+
+.thumbnail {
+  position: relative;
+  bottom: 50px;
+  left: 50%;
+  width: max-content;
+  z-index: 1;
+  display: flex;
+  gap: 20px;
 }
 }
 
