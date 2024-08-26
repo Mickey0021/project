@@ -970,7 +970,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
   bottom: 50px;
   left: 50%;
   border-radius: 30px;
-  animation: showImage 0.5s linear 1 forwards;
+  animation: showImage 0.1s linear 1 forwards;
 }
 @keyframes showImage {
   to {
@@ -984,7 +984,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
 
 .carousel-1.next .thumbnail .item:nth-last-child(1) {
   overflow: hidden;
-  animation: showThumbnail 0.5s linear 1 forwards;
+  animation: showThumbnail 0.1s linear 1 forwards;
 }
 .carousel-1.prev .list .item img {
   z-index: 100;
@@ -996,7 +996,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
   }
 }
 .carousel-1.next .thumbnail {
-  animation: effectNext 0.5s linear 1 forwards;
+  animation: effectNext 0.1s linear 1 forwards;
 }
 
 @keyframes effectNext {
@@ -1019,7 +1019,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
 
 .carousel-1.next .time,
 .carousel-1.prev .time {
-  animation: runningTime 3s linear 1 forwards;
+  animation: runningTime 1s linear 1 forwards;
 }
 @keyframes runningTime {
   from {
@@ -1037,7 +1037,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
 }
 
 .carousel-1.prev .list .item:nth-child(2) img {
-  animation: outFrame 0.5s linear 1 forwards;
+  animation: outFrame 0.1s linear 1 forwards;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1055,7 +1055,7 @@ footer .icon-ft .sci li a:hover,.container-form .contactInfo .sci li a:hover{
 .carousel-1.prev .thumbnail .item:nth-child(1) {
   overflow: hidden;
   opacity: 0;
-  animation: showThumbnail 0.5s linear 1 forwards;
+  animation: showThumbnail 0.1s linear 1 forwards;
 }
 .carousel-1.next .arrows button,
 .carousel-1.prev .arrows button {
