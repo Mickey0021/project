@@ -299,7 +299,7 @@ body {
   margin-top: 20px;
 }
 
-.services_box h3 a{
+.services_box h3 a {
   color: #299d84;
 }
 
@@ -420,12 +420,12 @@ footer .row-ft h3 {
 /* Gallery Section 1 */
 
 .gallery-section {
-  background: linear-gradient(to right bottom, #59c3c3, #3fadade7, #59c3c3);
+  background: linear-gradient(144deg, #16715d9c, #2c9f85, #0946386e);
 }
 
 .gallery-section .row .gallery-text .text-gallery {
   letter-spacing: 10px;
-  color: #0ff3f3;
+  color: #e9c46b;
 }
 
 .gallery-section .row h1 {
@@ -574,8 +574,8 @@ a {
   height: 60px;
   background: repeating-conic-gradient(
     from 27.5deg,
-    #01dbc2 0%,
-    #01dbc2 10%,
+    #e9c46b 0%,
+    #e9c46b 10%,
     transparent 10%,
     transparent 50%
   );
@@ -590,8 +590,8 @@ a {
   inset: 0;
   background: repeating-conic-gradient(
     from 117.5deg,
-    #01dbc2 0%,
-    #01dbc2 10%,
+    #e9c46b 0%,
+    #e9c46b 10%,
     transparent 10%,
     transparent 50%
   );
@@ -601,20 +601,20 @@ a {
   content: "";
   position: absolute;
   inset: 2px;
-  background-color: #222;
+  background-color: #254552;
 }
 
 .container-form .contactInfo .box .icon b {
   position: absolute;
   inset: 8px;
-  background-color: #01dbc2;
+  background-color: #32ae92;
   z-index: 2;
 }
 
 .container-form .contactInfo .box .icon i {
   position: relative;
   z-index: 2;
-  color: #333;
+  color: #dddbd2;
   font-size: 1.25em;
 }
 
@@ -630,13 +630,13 @@ a {
 
 .container-form .contactInfo .box .text h3 {
   font-weight: 500;
-  color: #01dbc2;
+  color: #32c8a7;
 }
 .container-form .contactInfo .txt {
   color: #fff;
   margin-top: 50px;
   font-weight: 500;
-  border-left: 50px solid #01dbc2;
+  border-left: 50px solid #2db093;
   padding-left: 10px;
   line-height: 1em;
 }
@@ -674,8 +674,8 @@ footer .icon-ft .sci li a:hover,
   width: 40%;
   background: repeating-conic-gradient(
     from var(--a),
-    #01dbc2 0%,
-    #01dbc2 10%,
+    #e9c46b 0%,
+    #e9c46b 10%,
     transparent 10%,
     transparent 50%
   );
@@ -689,8 +689,8 @@ footer .icon-ft .sci li a:hover,
   inset: 0;
   background: repeating-conic-gradient(
     from var(--a),
-    #01dbc2 0%,
-    #01dbc2 10%,
+    #e9c46b 0%,
+    #e9c46b 10%,
     transparent 10%,
     transparent 50%
   );
@@ -701,8 +701,8 @@ footer .icon-ft .sci li a:hover,
   content: "";
   position: absolute;
   inset: 2px;
-  border: 20px solid #0a212f;
-  background: linear-gradient(-200deg, #0a212f, #52489c);
+  border: 20px solid #2a8576;
+  background: linear-gradient(-200deg, #254552, #2c9f85);
 }
 @property --a {
   syntax: "<angle>";
@@ -766,7 +766,7 @@ footer .icon-ft .sci li a:hover,
 }
 .container-form .contactForm form .inputBox input[type="submit"] {
   width: 100%;
-  background: #01dbc2;
+  background: #60b4a5;
   color: #222;
   border: none;
   cursor: pointer;
